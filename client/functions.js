@@ -103,6 +103,7 @@ let change_screen = (str) => {
 }
 
 let calculate = () => {
+  console.log(number1 + operator + number2)
   if (operator == '/'){
     num = round_8((number1/number2).toString())
     change_screen(num);
